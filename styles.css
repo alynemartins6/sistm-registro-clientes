@@ -1,0 +1,86 @@
+body{
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-top: 2%;
+    margin-left: 5%;
+    
+}
+.titulo{
+    color: #0692d8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.subtitulo{
+    color: rgb(8, 81, 133);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+input,button{
+    border-radius:5px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color:  rgb(8, 81, 133);
+    display: block;
+}
+.campo input[type="text"], .campo input[type="number"], .campo input[type="email"]{
+    padding: 0.50em;
+    border: 2px solid #b1dff3;
+    box-shadow: 3px 3px 3px rgba(154, 122,122, 0.2);
+    display: block;
+}
+.botaosalvar{
+    font-size: 1.2em;
+    background-color: rgb(159, 208, 104);
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px  rgba(0,0,0,0.5);
+
+}
+.botaolimpar{
+    font-size: 1.2em;
+    background-color: rgb(238, 230, 69);
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding:0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px  rgba(0,0,0,0.5);
+
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    color: rgb(8, 81, 133);
+    background-color: rgb(252, 252, 252);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px  rgba(0,0,0,0.5);
+    
+}
+
+table td, table th{
+    border:2px solid #1a81b4;
+    padding: 1%;
+    text-align: center;
+}
+a{
+    color: #1a81b4;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+img {
+    width: 2%;
+
+}
+.logo{
+    width: 4%;
+   
+
+}
