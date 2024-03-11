@@ -15,13 +15,14 @@
     <div class="campo">
         <form>
             <label class="cpf"><strong> CPF:</strong></label> <br>
-            <input type="number" placeholder="Digite o CPF sem traços"required>
+            <input id="cpf" type="number" placeholder="Digite o CPF sem traços"required>
             <br> <br>
         </form>
     </div>
     <div class="campo">
-        <button class="botaosalvar" type="submit">Buscar</button>
-        <button class="botaolimpar" type="reset">Limpar</button>
+        <button onclick="listarTodosClientes()" class="buscartodos" type="submit">Buscar Todos</button>
+        <button onclick="buscarClienteCPF()" class="botaosalvar" type="submit">Buscar por CPF</button>
+        <button onclick="limparTudo()" class="botaolimpar" type="reset">Limpar</button>
     </div>
 
     <div class="campo">
@@ -29,31 +30,29 @@
     </div>
 
     <div class="campo">
-        <table>
-            <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>CPF</th>
-                <th>Celular</th>
-                <th>Email</th>
-            </tr>
-            
-            <tr>
-                <td>   </td>
-                <td>   </td>
-                <td>   </td>
-                <td>   </td>
-                <td>   </td>
-            </tr>
-            <tr>
-                <td>   </td>
-                <td>   </td>
-                <td>   </td>
-                <td>   </td>
-                <td>   </td>
-            </tr>
-            
+        <table id="tabela-cliente" >
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Celular</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+          
+            <tbody>
+                <tr>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                </tr>
+            </tbody>
+                     
         </table>
-    </div>    
+    </div>   
+    <script src="clientes.js"></script> 
 </body>
 </html>

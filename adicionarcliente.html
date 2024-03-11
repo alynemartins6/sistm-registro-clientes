@@ -19,15 +19,15 @@
             <input id="nome" type="text" placeholder="Digite seu nome"required>
             <br> <br>
             <label class="cpf"> <strong> CPF:</strong></label> <br>
-            <input type="number" placeholder="Digite o CPF sem traços"required>
+            <input id="cpf" type="number" placeholder="Digite o CPF sem traços"required>
             <br> <br>
             <label class="celular"><strong>Celular:</strong> </label> <br>
-            <input type="number" placeholder="Digite o número com DDD"required>
+            <input id ="celular" type="number" placeholder="Digite o número com DDD"required>
             <br> <br>
             <label class="email"><strong>Email:</strong> </label> <br>
-            <input type="email" placeholder="Digite seu Email"required>
+            <input id="email" type="email" placeholder="Digite seu Email"required>
             <br> <br>
-            <button class="botaosalvar" type="submit">Salvar</button>
+            <button onclick="cadastrarCliente()" class="botaosalvar" type="submit">Salvar</button>
             <button onclick="limpar()" class="botaolimpar" type="reset">Limpar</button>
 
         </form>
@@ -39,4 +39,5 @@
         alert("Limpando formulário");
       }
 </script>
+<script src="clientes.js" ></script>
 </html>
